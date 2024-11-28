@@ -78,7 +78,7 @@ def delete_pessoa_fisica(id):
 
 # Criar pessoas físicas
 create_pessoa_fisica("Erick Anderson", "14.785.66-7", "", "2000-04-12", "(61) 981547567", "erick@gmail.com")
-create_pessoa_fisica("Rafael Oliveira", "15.147.432-1", "1999-08-08", "(61) 91234-5678", "rafaelsantistagmail.com")
+create_pessoa_fisica("Rafael Oliveira", "15.147.432-1", "", "1999-08-08", "(61) 91234-5678", "rafaelsantista@gmail.com")
 
 # Ler todas as pessoas físicas
 print("\nLista de todas as pessoas físicas:")
