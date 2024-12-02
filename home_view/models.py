@@ -76,26 +76,30 @@ def delete_pessoa_fisica(id):
         
 #Na prática
 
+
 # Criar pessoas físicas
 create_pessoa_fisica("Erick Anderson", "14.785.66-7", "", "2000-04-12", "(61) 981547567", "erick@gmail.com")
 create_pessoa_fisica("Rafael Oliveira", "15.147.432-1", "", "1999-08-08", "(61) 91234-5678", "rafaelREPROVADO@gmail.com")
 
-# Ler todas as pessoas físicas
+# # Criar pessoas físicas
+create_pessoa_fisica("Erick Anderson", "14.785.66-7", "", "2000-04-12", "(61) 981547567", "erick@gmail.com")
+
+# # Ler todas as pessoas físicas
 print("\nLista de todas as pessoas físicas:")
 read_all_pessoas_fisicas()
 
-# Atualizar uma pessoa física
+# # Atualizar uma pessoa física
 print("\nAtualizando a pessoa com ID 1:")
 update_pessoa_fisica(1, nome="Erick Anderson", celular="(11) 98756-1987")
 
-# Ler todas as pessoas físicas novamente após a atualização da pessoa com ID:1
+# # Ler todas as pessoas físicas novamente após a atualização da pessoa com ID:1
 print("\nLista de todas as pessoas físicas após atualização:")
 read_all_pessoas_fisicas()
 
-# Deletar uma pessoa física
+# # Deletar uma pessoa física
 print("\nDeletando a pessoa com ID 2:")
 delete_pessoa_fisica(2)
 
-# Ler todas as pessoas físicas após deletar a pessoa do ID:2
+# # Ler todas as pessoas físicas após deletar a pessoa do ID:2
 print("\nLista final de todas as pessoas físicas:")
 read_all_pessoas_fisicas()
