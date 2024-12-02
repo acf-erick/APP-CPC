@@ -109,6 +109,6 @@ print("\nLista final de todas as pessoas físicas:")
 read_all_pessoas_fisicas()
 
 
-
+# EEERRRIIIIIIIICKCKCKCK
 
 
