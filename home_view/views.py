@@ -12,3 +12,6 @@ class PfSignUpView(TemplateView):
 
 class PjSignUpView(TemplateView):
     template_name = 'home_view/pjSignUp.html'
+
+class FriedsListView(TemplateView):
+    template_name = 'home_view/friendsList.html'
