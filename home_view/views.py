@@ -8,4 +8,4 @@ class UserTypeView(TemplateView):
     template_name = 'home_view/userType.html'
 
 class PfSignUpView(TemplateView):
-    template_name = 'home_view/pfSignUp'
+    template_name = 'home_view/pfSignUp.html'
