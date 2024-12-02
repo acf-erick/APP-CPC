@@ -1,6 +1,6 @@
 from tabnanny import verbose
 from django.db import models
-from .models import PessoaFisica
+# from .models import PessoaFisica
 
 class PessoaFisica(models.Model):
     name = models.CharField(max_length=255, verbose_name="Nome Completo", null=False, blank=False)
