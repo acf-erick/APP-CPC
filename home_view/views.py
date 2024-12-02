@@ -9,3 +9,6 @@ class UserTypeView(TemplateView):
 
 class PfSignUpView(TemplateView):
     template_name = 'home_view/pfSignUp.html'
+
+class PjSignUpView(TemplateView):
+    template_name = 'home_view/pjSignUp.html'
