@@ -4,5 +4,11 @@ from django.views.generic import TemplateView
 class HomeView(TemplateView):
     template_name = 'home_view/home.html'
 
-class PjPfView(TemplateView):
-    template_name = 'home_view/pjPf.html'
+class UserTypeView(TemplateView):
+    template_name = 'home_view/userType.html'
+
+class PfSignUpView(TemplateView):
+    template_name = 'home_view/pfSignUp.html'
+
+class PjSignUpView(TemplateView):
+    template_name = 'home_view/pjSignUp.html'

@@ -17,7 +17,7 @@ class PessoaFisica(models.Model):
     
 class PessoaJuridica(PessoaFisica):
     buisness_name = models.CharField(max_length=255, verbose_name="Nome do Empreendimento", null=False, blank=False)
-    cnpj = models.IntegerField(max_length=14, verbose_name="CNPJ", null=False, blank=False)
+    cnpj = models.IntegerField(verbose_name="CNPJ", null=False, blank=False)
     adress = models.CharField(max_length=255, verbose_name="Endereço", null=False, blank=False)
     region = models.CharField(max_length=255, verbose_name="Região", null=False, blank=False)
     buisness_phone = models.CharField(max_length=16, verbose_name="Telefone do Empreendimento", null=False, blank=False)
@@ -25,7 +25,6 @@ class PessoaJuridica(PessoaFisica):
     social_media = models.CharField(max_length=255, verbose_name="Redes Sociais", null=True, blank=True)
 
     
-
 
 
 
@@ -110,6 +109,6 @@ print("\nLista final de todas as pessoas físicas:")
 read_all_pessoas_fisicas()
 
 
-
+# EEERRRIIIIIIIICKCKCKCK
 
 
