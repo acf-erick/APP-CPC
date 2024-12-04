@@ -1,4 +1,38 @@
 {% extends "base.html" %}
-{% block content %}
-<h1>LISTA DE PARCEIROS</h1>
-{% endblock content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Parceiros CPC</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <span class="icon" id="menu-button">☰</span>
+        <h1>Lista de Parceiros CPC</h1>
+        <span class="icon" id="search-button">🔍</span>
+    </header>
+    <div class="content">
+        <button class="button">Trilhando Caminhos Ecoturismo</button>
+        <button class="button">Promoções e Eventos - Trilhas e Viagens</button>
+        <button class="button">Mais Agai</button>
+        <button class="button">Jardim dos Beija-Flores</button>
+        <button class="button">Cervejas Capivara</button>
+        <button class="button">Nascer do Sol</button>
+        <button class="button">Queen of Peppers</button>
+        <button class="button">Botica Caliandra</button>
+        <button class="button">Queijaria Rancharia</button>
+        <button class="button">Chácara Bosque do Cerrado</button>
+        <button class="button">Território Comunicação</button>
+        <button class="button">Suzana Cardoso</button>
+        <button class="button">Ateliê Anjico</button>
+        <button class="button">Ecs Fisioterapia</button>
+        <button class="button">MEI</button>
+        <button class="button">Brasília com Maria</button>
+        <button class="button">Chácara BOAZ</button>
+    </div>
+</body>
+</html>
+
