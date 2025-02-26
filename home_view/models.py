@@ -1,3 +1,4 @@
+
 from django.db import models
 
 class PessoaFisica(models.Model):
@@ -26,4 +27,5 @@ class PessoaJuridica(PessoaFisica):
 # Enzo teste erick fetch / puullll
 
 # Teste de novo 
+
 
