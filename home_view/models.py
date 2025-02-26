@@ -23,7 +23,5 @@ class PessoaJuridica(PessoaFisica):
     social_media = models.CharField(max_length=255, verbose_name="Redes Sociais", null=True, blank=True)
 
     
-
-
-
+# Enzo teste erick fetch / puullll
 
