@@ -25,3 +25,5 @@ class PessoaJuridica(PessoaFisica):
     
 # Enzo teste erick fetch / puullll
 
+# Teste de novo 
+
